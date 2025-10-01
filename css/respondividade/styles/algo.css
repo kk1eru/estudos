@@ -1,0 +1,31 @@
+
+:root{
+    --rosa1: #FF66CD;
+    --rosa2: #FFCCFF;
+    --rosa3:#FFCCCC ;
+    --rosa4:#FF99CD ;
+}
+main{
+    background-color: var(--rosa3);
+    width: 100%;
+    border:3px var(--rosa4) solid;
+    border-radius: 6px;
+    min-width: 320px;
+    max-width: 820px;
+}
+h1, p, h2, img{
+    margin: 0px;
+    padding: 0px;
+    
+}
+abbr{
+    text-decoration: none;
+}
+p{
+    margin: 7px;
+    padding: 5px;
+}
+img{
+    margin: 7px;
+     
+}

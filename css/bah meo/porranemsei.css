@@ -1,0 +1,15 @@
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: lightpink;
+}
+a:visited{
+    color: rgb(0, 0, 0);
+}
+a:active{
+    color: darkmagenta;
+}
+a::after{
+    content: "[link]"
+}

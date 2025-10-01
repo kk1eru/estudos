@@ -1,0 +1,28 @@
+@font-face {
+    font-family: varsity;
+    src: url(fonts/varsity_regular.ttf)
+    format(truetype);
+}
+ul{
+    background-color: lightpink;
+    width: 300px;
+    height: 300px;
+    font-weight: 500px;
+    font-size: 16px;
+    font-style: oblique;
+    text-align: center;
+
+}
+p{
+
+}
+div > p{
+
+    
+    
+    font-family: varsity;
+    font-size: 25px;
+}
+p{ 
+font-size: 20px;
+}

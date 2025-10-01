@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+header > p{
+    margin: 10px;
+}
+
+header > h1{
+    margin: 0px;
+
+}
+header > nav{
+    margin: 9px;
+    
+}
+
+header{
+    background-color: lightpink;
+    text-align: center;
+box-shadow: 7px 0px 9px rgba(0, 0, 0, 0.473);
+}
+body{
+    margin: 0px;
+    
+}
+a{
+    padding: 9px;
+    text-decoration: none;
+}
+h1{
+    margin-top: 0px;
+}
+footer{
+    text-align: center;
+    background-color: lightcyan;
+}
+aside{
+    background-color: violet;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    text-align: center;
+    
+}

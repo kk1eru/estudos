@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+
+@font-face {
+    font-family:IHATCS__ ;
+    src: url(fonts/IHATCS__.TTF) format('truetype');
+}
+
+html{
+    background: linear-gradient(to right,#9E58F5,#F558D8,#D158F5);
+}
+h1{
+    font-family: Comic Relief ;
+font-weight:700;
+}
+h2 {
+   font-family:Roboto sans-serif ;
+   font-weight: 600;
+   }
+p{
+    font-family: IHATCS__;
+font-size: 3em;
+}
+
+
+

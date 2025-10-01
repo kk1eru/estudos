@@ -1,0 +1,14 @@
+@font-face {
+    font-family: varsity;
+    src: url(fonts/varsity_regular.ttf)
+    format(truetype);
+}
+body{
+    background: linear-gradient(to right,#39C5BB,#66E5E0,#2E8C87);
+}
+p{
+    font-size: 20px;
+}
+ul{
+    font-size: 18px;
+}

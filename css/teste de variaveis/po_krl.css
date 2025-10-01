@@ -1,0 +1,27 @@
+img{
+    width: 100px;
+    margin-bottom: 5px;
+    display: block;
+}
+/* 
+
+FF66CD
+FFCCFF
+FFCCCC
+FF99CD
+
+*/
+:root{
+    --rosa1: #FF66CD;
+    --rosa2: #FFCCFF;
+    --rosa3:#FFCCCC ;
+    --rosa4:#FF99CD ;
+}
+main{
+    background-color: var(--rosa3);
+}
+* h1, p, h2, img{
+    margin: 0px;
+    padding: 0px;
+    
+}

@@ -1,0 +1,61 @@
+main{
+    background-color: lightgray;
+    width: 850px;
+    text-align: center;
+    margin: 0px auto;
+    border: 2px solid ;
+    border-radius: 8px;
+}
+main > h1{
+    background-color: lightslategray;
+    border-style: solid;
+    border-radius: 6px;
+}
+h1{
+    margin: 0px;
+    padding: 0px;
+
+}
+.video{
+    margin-bottom: 6px;
+    
+}
+video{
+    
+    width: 650px;
+}
+body{
+    background-image: url(imgs/true_background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+aside{
+    background-color: rgb(142, 157, 172);
+    border: 3px solid black;
+    border-radius: 5px;
+}
+a:hover{
+    color: darkred;
+}
+a:active{
+    color: black;
+}
+a:visited{
+color: rgb(126, 105, 105);
+}
+nav{
+    display: flexbox;
+}
+nav > p{
+    display: flexbox;
+    text-align: center;
+    background-color: rgb(255, 236, 236);
+    width: 850px;
+    margin: auto;
+}
+nav > p:hover{
+    color: rgb(143, 143, 255);
+    
+}
+

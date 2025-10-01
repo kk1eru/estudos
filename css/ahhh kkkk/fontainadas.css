@@ -1,0 +1,55 @@
+main{
+    background-color: lightblue;
+    width: 600px;
+    height: auto;
+    text-align: center;
+    margin: 0px auto ;
+    padding: 9px ;
+    border: 2px solid blue;
+    border-radius: 8px;
+
+}
+h1{
+margin: 3px;
+}
+footer{
+    background-color: lightcyan;
+    text-align: center;
+    display: block;
+    width: fit-content;
+margin: 0px auto;
+border: 3px solid lightblue;
+border-radius: 3px;
+}
+footer{
+    a:hover{
+        color: pink;
+    }
+}
+.wrio:hover{
+    color: lightgray;
+}
+.neuvi:hover{
+    color: blue;
+}
+.furina:hover{
+    color: aqua;
+}
+.furina::after{
+    content: "[wiki]";
+}
+.wrio::after{
+    content: "[wiki]";
+}
+.neuvi::after{
+     content: "[wiki]";
+}
+.furina:active{
+color: black;
+}
+.wrio:active{
+color: black;
+}
+.neuvi:active{
+color: black;
+}

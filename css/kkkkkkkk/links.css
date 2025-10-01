@@ -1,0 +1,20 @@
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: lightpink;
+}
+a:active{
+    color: rgba(216, 159, 248, 0.623);
+}
+a{
+    text-decoration: none;
+    color: lightcoral;
+}
+
+a::after{
+    content: "[link]";
+    color: black;
+    font-weight: bold;
+    font-family: 'Courier New', Courier,;
+}

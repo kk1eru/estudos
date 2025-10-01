@@ -1,0 +1,9 @@
+body{
+    background: linear-gradient(to right,#39C5BB,#66E5E0,#2E8C87);
+}
+div{
+    text-align: center;    
+}
+video{
+    width: 600px;
+}

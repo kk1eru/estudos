@@ -1,0 +1,10 @@
+html{
+     background: linear-gradient(to left,#E62C9E,#932CE6,#D02CE6);
+}
+video{
+    width: 45%;
+}
+a{
+    text-decoration: none;
+    color: plum;
+}

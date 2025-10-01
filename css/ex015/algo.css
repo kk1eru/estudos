@@ -1,0 +1,7 @@
+@font-face {
+    font-family: khofira;
+    src: url(fonts/Khofira.ttf)
+    format("truetype"),
+    url(fonts/Khofira.otf)
+    format(opentype);
+}

@@ -1,0 +1,27 @@
+main{
+    text-align: center;
+    display: block;
+    
+    background-color: lightblue;
+    border-radius: 4px;
+    border: 2px solid lightskyblue;
+    padding: 3px;
+    margin:3px auto;
+    width: 550px;
+}
+h1{
+color: rgb(63, 63, 231);
+}
+address{
+    background-color: rgb(13, 196, 196);
+    border-radius: 3px;
+    width: fit-content;
+    text-align: center;
+   margin: 3px auto;
+}
+h2{
+    color: darkcyan;
+}
+h3{
+    color: rgb(5, 247, 247);
+}
