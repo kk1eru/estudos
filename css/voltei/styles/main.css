@@ -1,0 +1,50 @@
+:root{
+    --cor1:;
+    --cor2:;
+    --cor3:;
+    --cor4:;
+    --cor5:;
+    --furina:rgb(135, 135, 248);
+    --xilonen:rgb(255, 255, 0);
+    --bennet:rgb(250, 164, 93);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.furina:hover{
+color: var(--furina);
+transition: 0.5s;
+}
+.bennet:hover{
+color: var(--bennet);
+transition: 0.5s;
+}
+.xilonen:hover{
+color: var(--xilonen);
+transition: 0.5s;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 100px;
+    text-align: center;
+    background-color: cornflowerblue;
+     width:717px;
+     text-align: center;
+     margin: auto;
+     display: flex;
+}
+main{
+    background-color: rgb(235, 239, 253);
+    width:700px;
+    text-align: center;
+    text-align:justify;
+    margin: auto;
+    padding: 7px;
+    border-radius: 0px, 5px, 5px, 5px;
+    box-shadow: -1px 1px 6px 0px;
+}

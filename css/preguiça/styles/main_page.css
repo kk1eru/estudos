@@ -1,0 +1,49 @@
+body{
+    background-color: wheat;
+}
+main{
+    background-color: aliceblue;
+    padding: 9px;
+    margin:auto;
+    width: 730px;
+    text-align: center;
+    border-radius: 0, 0, 5px 5px;
+    border: 1px solid black;
+    border-top: none;
+}
+h1{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 9px;
+    margin:auto;
+    width: 730px;
+    border-radius:5px 5px 0 0;
+    border-bottom: none;
+    border: 1px solid
+}
+
+.furina{
+    text-decoration: none;
+    color: black;
+}
+.bennet{
+    text-decoration: none;
+    color: black;
+
+}
+.xilonen{
+    text-decoration: none;
+    color: black;
+}
+.furina:hover{
+    color: rgb(3, 3, 179);
+    transition: 0.2s;
+}
+.bennet:hover{
+color: red;
+ transition: 0.2s;
+}
+.xilonen:hover{
+color: yellow;
+ transition: 0.2s;
+}
