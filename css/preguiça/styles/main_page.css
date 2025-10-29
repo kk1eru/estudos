@@ -1,49 +1,69 @@
-body{
-    background-color: wheat;
-}
-main{
-    background-color: aliceblue;
-    padding: 9px;
-    margin:auto;
-    width: 730px;
-    text-align: center;
-    border-radius: 0, 0, 5px 5px;
-    border: 1px solid black;
-    border-top: none;
-}
-h1{
-    text-align: center;
-    background-color: aliceblue;
-    padding: 9px;
-    margin:auto;
-    width: 730px;
-    border-radius:5px 5px 0 0;
-    border-bottom: none;
-    border: 1px solid
-}
-
-.furina{
-    text-decoration: none;
-    color: black;
-}
-.bennet{
-    text-decoration: none;
-    color: black;
-
-}
-.xilonen{
-    text-decoration: none;
-    color: black;
+:root{
+    --furina:#2713F6;
+    --xilonen:#FFF700;
+    --bennet:#FF2C00;
+    --cor1:#ffe2ad;
+    --cor2:#;
+    --cor3:#;
+    --cor4:#;
+    --cor5:#;
+    --cor6:#;
 }
 .furina:hover{
-    color: rgb(3, 3, 179);
-    transition: 0.2s;
-}
-.bennet:hover{
-color: red;
- transition: 0.2s;
+color: var(--furina);
+transition: 0.5s;
 }
 .xilonen:hover{
-color: yellow;
- transition: 0.2s;
+color: var(--xilonen);
+transition: 0.5s;
+}
+.bennet:hover{
+color: var(--bennet);
+transition: 0.5s;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-image:url(../imgs/Poisson.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+main{   
+    background-color: var(--cor1);
+    width: 760px;
+    text-align: center;
+    margin: auto;
+}
+header{
+    text-align: center;
+    background-color: var(--cor1);
+    width: 760px;
+    text-align: center;
+    margin: auto;
+    height: 100px;
+    
+}
+nav{
+    padding: 5px;
+    text-align: justify;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+h2{
+    padding: 0;
+    margin: 0;
+}
+nav > a{
+    padding: 5px;
+    background: linear-gradient(to right, pink, plum);
+    border-radius: 5px;
+}
+nav > a:hover{
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease;
 }
