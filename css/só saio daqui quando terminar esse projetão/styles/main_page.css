@@ -1,0 +1,50 @@
+:root{
+--cor1:#FF7F00;
+--cor2:#0D0D0D;
+--cor3:#3A3A3A;
+--cor4:#BFBFBF;
+--cor5:#2274A5;
+--cor6:#7FFF00;
+}
+header{
+
+background-color: var(--cor1);
+border-top:2px black solid ;
+border-left:2px black solid ;
+border-right:2px black solid ;
+}
+header > h1{
+    text-align: center;
+}
+nav{
+display: flex;
+justify-content: center;
+gap: ;
+}
+nav > a{
+text-decoration: none;
+color: black;
+padding-bottom: 10px;
+
+
+    
+}
+nav > a:hover{
+    color: var(--cor1);
+    transition: 0.5s;
+    background-color:var(--cor2);
+    border-radius: 5px;
+}
+main{
+background-color: wheat;
+
+}
+body{
+    margin: auto;
+    width: 850px;
+    text-align: justify;
+    
+}
+p, h1{
+    padding: 5px;
+}

@@ -1,0 +1,27 @@
+:root{
+    --cor1:#6CD5FF ;
+    --cor2:#2A8BD8 ;
+    --cor3:#0F1D4A  ;
+    --cor4:#E8D28A ;
+    --cor5:#FFFFFF ;
+}
+
+.main{
+    width: 670px;
+    background-color: var(--cor2);
+    margin: auto;
+    border: var(--cor1) solid 3px;
+    box-shadow: 3px 5px black;
+}
+h1,h2,h3{
+    text-align: center;
+}
+video{
+    width: 500px;
+   
+}
+.furina{
+     margin: auto;
+    display: block;
+    text-align: center;
+}
