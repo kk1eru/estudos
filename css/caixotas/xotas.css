@@ -1,8 +1,26 @@
 
-body{
+/*body{
     min-height: 100vh;
     background-image: url(furinadas.webp);
     background-repeat: no-repeat;
     background-position:center bottom;
     background-size: 100%;
 }
+    tudo aqui é só 1 texto e fds
+    */
+    body{
+        background-color: black;
+        background-image: url(furinadas.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    main{
+        background-color: white;
+        width: 400px;
+        padding: 10px;
+        margin: auto;
+        border: 2px solid black;
+        border-radius: 5px;
+
+    }
