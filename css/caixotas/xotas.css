@@ -1,0 +1,8 @@
+
+body{
+    min-height: 100vh;
+    background-image: url(furinadas.webp);
+    background-repeat: no-repeat;
+    background-position:center bottom;
+    background-size: 100%;
+}
