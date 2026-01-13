@@ -1,18 +1,14 @@
 
-/*body{
-    min-height: 100vh;
-    background-image: url(furinadas.webp);
-    background-repeat: no-repeat;
-    background-position:center bottom;
-    background-size: 100%;
-}
-    tudo aqui é só 1 texto e fds
-    */
     body{
-        background-color: black;
-        background-image: url(furinadas.webp);
-        background-repeat: no-repeat;
+        /*   shorthand de background
+        a ordem é: color, image, posotion, repeat, size, attachment 
+        O SIZE PODE NÃO FUNCIONAR ENTÃO FAZER ELE SEPARADO
+        */
+       
+        background: black url(furinadas.webp) center no-repeat  fixed;
         background-size: cover;
+     
+       
         
     }
     main{
