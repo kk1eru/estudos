@@ -15,10 +15,12 @@ FF99CD
     --rosa1: #FF66CD;
     --rosa2: #FFCCFF;
     --rosa3:#FFCCCC ;
+    --secundaria:orange;
     --rosa4:#FF99CD ;
 }
 main{
     background-color: var(--rosa3);
+    width: 750px;
 }
 * h1, p, h2, img{
     margin: 0px;

@@ -1,0 +1,32 @@
+:root{
+--cor1: #484CA0;
+--cor2:#6063AD;
+--cor3:#1A1A4A;
+--cor4:#0F112D;
+--cor5:#2F3791;
+}
+body{
+background-color: wheat;
+}
+main{
+    width: 740px;
+    margin: auto;
+    text-align: justify;
+    border: var(--cor2) solid 2px; 
+    padding: 5px;
+}
+header{
+    text-align: center;
+}
+.link_externo::after{
+    content: "🔗";
+    
+}
+.link_externo{
+text-decoration: none;
+    color: black;
+}
+.link_externo:hover{
+color: var(--cor2);
+transition: 0.5s;
+}
