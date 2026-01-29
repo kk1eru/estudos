@@ -1,0 +1,13 @@
+:root{
+--cor1:#F4F6F7;
+--cor2:#A5CDE2;
+--cor3:#6BA2CC;
+--cor4:#2A377A;
+--cor5:#4D4956;
+}
+header{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--cor2);
+}
