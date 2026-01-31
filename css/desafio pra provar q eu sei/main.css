@@ -1,0 +1,31 @@
+header{
+    text-align: center;
+    padding-bottom:50px ;
+    padding-top: 50px;
+    background-color: black;
+
+}
+header > p, h1{
+    color: white;
+}
+.texto{
+    color: pink;
+}
+.imagem{
+    background-image: url(imgs/background001.jpg);
+    font-size: 96%;
+    background-position: right center;
+   background-size: cover;
+   background-attachment: fixed;
+   color: plum;
+}
+
+
+/* Efeito Parallax simples */
+
+background-image: url(imgs/background001.jpg); /* imagem de fundo */
+background-size: cover;                        /* cobre todo o container */
+background-position: right center;             /* posição inicial da imagem */
+background-attachment: fixed;                  /* faz a imagem se mover mais devagar que o scroll */
+font-size: 96%;                                /* tamanho do texto */
+color: plum;                                   /* cor do texto */

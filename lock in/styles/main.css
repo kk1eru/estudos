@@ -1,13 +1,47 @@
-:root{
---cor1:#F4F6F7;
---cor2:#A5CDE2;
---cor3:#6BA2CC;
---cor4:#2A377A;
---cor5:#4D4956;
+    :root{
+    --cor1:#F4F6F7;
+    --cor2:#A5CDE2;
+    --cor3:#6BA2CC;
+    --cor4:#2A377A;
+    --cor5:#4D4956;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    header{
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        background-color: var(--cor2);
+    }
+    .mondstadt#monds{
+        background-image: url(../imgs/monds.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 70vw;
+        background-position: center;
+        
+    }
+    .texto{
+        font-size: 30px;
+    }
+    .mondstadt#monds > p {
+    .mondstadt#monds {
+    position: relative; /* necessário pra usar position absoluta no p */
 }
-header{
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: var(--cor2);
+
+.mondstadt#monds > p {
+    position: absolute;
+    left: 20px; /* distância da esquerda, ajusta como quiser */
+    top: 50%;
+    transform: translateY(-50%); /* centraliza verticalmente */
+    width: 40%; /* opcional, define largura máxima do texto */
+    font-size: 25px; /* tamanho médio que você mencionou */
+    color: white; /* texto visível sobre background */
+    line-height: 1.5; /* melhora leitura */
 }
+
+
+    }
