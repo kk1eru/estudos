@@ -1,12 +1,12 @@
 *{
-    padding: 0;
+     padding: 0;
     margin: 0;
 }
 
 header{
    width: 780px;
     text-align: center;
-    background-color: wheat;
+    background-color: #ccffcc;
     border-radius: 3px;
     margin: auto;
     
@@ -19,7 +19,7 @@ header{
     border-radius: 3px;
 }
 main{
-    background-color: wheat;
+    background-color: #ccffcc;
     width: 780px;
     text-align: justify;
     margin: auto;
@@ -28,12 +28,35 @@ main{
     border-radius: 3px;
 }
 body{
-    background-image: url(../imgs/background.jpeg);
+    background-image: url(../imgs/background002.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 video{
     
-    width: 780px;
+    max-width: 780px;
+ 
+}
+.links_seasons{
+    text-decoration: none; 
+    color: black;
+    display: inline-block;
+}
+.links_seasons:hover{
+    color: rgb(53, 53, 53);
+    transition: 0.5s;
+    background-color: #9cfa9c;
+}
+.links_seasons::after{
+    content: "🔗";
+}
+.links_seasons:visited{
+    color: black;
+}
+ul{
+    columns: 2;
+    text-align: left center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
