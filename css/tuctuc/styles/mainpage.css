@@ -36,8 +36,21 @@ body{
 video{
     
     max-width: 780px;
- 
 }
+.header_link{
+    text-decoration: none;
+    color: black;
+
+}
+.header_link:hover{
+    transition: 0.5s;
+    background-color: #9cfa9c;
+}
+.header_link::after{
+    content: "🔗";
+}
+
+
 .links_seasons{
     text-decoration: none; 
     color: black;
@@ -59,4 +72,5 @@ ul{
     text-align: left center;
     padding-top: 5px;
     padding-bottom: 5px;
+    list-style: none;
 }
