@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+   width: 780px;
+    text-align: center;
+    background-color: wheat;
+    border-radius: 3px;
+    margin: auto;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left:5px ;
+    padding-right:5px ;
+   
+    border: 1px solid black;
+    border-radius: 3px;
+}
+main{
+    background-color: wheat;
+    width: 780px;
+    text-align: justify;
+    margin: auto;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+body{
+    background-image: url(../imgs/background.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+video{
+    
+    width: 780px;
+}

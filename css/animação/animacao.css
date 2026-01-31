@@ -1,0 +1,48 @@
+/* reset básico pra não encher o saco */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+    font-family: Arial, sans-serif;
+}
+
+/* elemento animado */
+.box {
+    width: 120px;
+    height: 120px;
+    background: plum;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 24px;
+    border-radius: 12px;
+
+    /* animação */
+    animation: flutuar 1s ease-in-out infinite;
+}
+
+/* keyframes */
+@keyframes flutuar {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-150px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
