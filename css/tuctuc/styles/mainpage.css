@@ -74,3 +74,15 @@ ul{
     padding-bottom: 5px;
     list-style: none;
 }
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+a{text-decoration: none;
+color: wheat;
+}
+a:hover{
+    color: #9cfa9c;
+    transition: 1s;
+}
