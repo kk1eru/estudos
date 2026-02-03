@@ -21,6 +21,14 @@ header{
     padding-bottom: 40px;
     border: 1px solid black;
 }
+h3, p {
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
 main{
 background-color: #ccffcc;
 
@@ -28,15 +36,16 @@ margin: auto;
 border-radius: 4px;
 border: 1px solid black;
     
-    width: 100%;
-    /* min-width: 580px;
-    max-width: 780px; */
+   
     width: 50%;
     max-width: 780px;
     min-width:380px;
 }
 body{
     background-image: url(../imgs/background002.png);
+}
+footer > a{
+    color: wheat;
 }
 footer{
     margin: auto;
@@ -55,3 +64,21 @@ img{
     align-items: center;
 
 } 
+.personagens{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#luna:hover{
+    color: rgb(100, 100, 255);
+    transition: 0.5s;
+
+}
+#strange:hover{
+color: orange;
+transition: 0.5s;
+}
+#miranha:hover{
+color: red;
+transition: 0.5s;
+}
