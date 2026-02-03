@@ -43,6 +43,7 @@ border: 1px solid black;
 }
 body{
     background-image: url(../imgs/background002.png);
+    background-attachment: fixed;
 }
 footer > a{
     color: wheat;
@@ -68,17 +69,24 @@ img{
     text-align: center;
     font-size: 35px;
     font-family: 'Courier New', Courier, monospace;
+    
+    
+
 }
 #luna:hover{
     color: rgb(100, 100, 255);
     transition: 0.5s;
-
+    text-shadow: 8px 9px 3px;
 }
 #strange:hover{
 color: orange;
 transition: 0.5s;
+text-shadow: 8px 9px 3px;
 }
 #miranha:hover{
 color: red;
 transition: 0.5s;
+text-shadow: 8px 9px 3px;
 }
+
+
