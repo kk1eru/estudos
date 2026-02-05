@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+main{
+width: 735px;
+text-align: center;
+text-align: justify;
+background-color: wheat;
+border-radius: 5px;
+border: 1px black solid;
+}
+header{
+width: 735px;
+text-align: center;
+background-color: wheat;
+border-radius: 5px;
+border: 1px black solid;
+}
+body{
+    background-image: url(../imgs/background.jpg);
+}
+.Frieren:hover{
+
+
+}
+.Fern:hover{
+color: purple;
+transition: 0.5s;
+background-image: url(../imgs/fern.jpg);
+position: top top;
+}
+.Stark{
+
+}
