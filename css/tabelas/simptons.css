@@ -1,0 +1,8 @@
+td, th{
+    border: 1px solid black;
+    width: 250px;
+    text-align: left;
+}
+tbody > tr:nth-child(2n){
+background-color: plum;
+}
