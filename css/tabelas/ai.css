@@ -1,0 +1,10 @@
+table{
+ width: 450px;
+}
+
+td, th{
+    border: solid 1px black;
+}
+col.cnome{
+    background-color: pink;
+}

@@ -6,3 +6,11 @@ td, th{
 tbody > tr:nth-child(2n){
 background-color: plum;
 }
+table{
+    position: relative;
+}
+thead > tr > th{
+position: sticky;
+top: 0;
+
+}
