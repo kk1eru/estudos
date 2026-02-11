@@ -88,5 +88,11 @@ color: red;
 transition: 0.5s;
 text-shadow: 8px 9px 3px;
 }
+iframe{
+    display: block;
+    width: 99%;
+    height: 300px;
+margin: auto;
+}
 
 
