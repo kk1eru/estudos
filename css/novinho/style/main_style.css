@@ -1,0 +1,114 @@
+@font-face {
+    font-family:amoera ;
+    src: url(../fonts/amoera-Regular.ttf)
+    format('truetype')
+    ;
+}
+:root{
+    --cor1: #0F0F14;
+    --cor2: #1C1C26;
+    --cor3: #B11226;
+    --cor4: #E6C77A;
+    --cor5: #F5F5F5;
+    --cor6: #B8B8C2;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    max-width: 100%;
+    min-width: 300px;
+    width: 720px;
+
+    
+    text-align: justify;
+    color: white;
+
+    background-color: var(--cor2);
+    padding: 5px;
+    margin: auto;
+
+  border-top:solid 1px var(--cor2) ;
+  border-left:solid 1px var(--cor2) ;
+  border-right:solid 1px var(--cor2) ;
+  
+    border-radius: 3px;
+}
+
+main{
+    max-width: 100%;
+    min-width: 300px;
+    width: 720px;
+    margin: auto;
+
+    text-align: justify;
+    color: white;
+
+    background-color: var(--cor2);
+    padding: 5px;
+
+    border: solid 1px ;
+    border-radius: 3px;
+}
+header > h1{
+text-align: center;
+}
+header{
+   border-top: 1px solid var(--cor5);
+    border-left:1px solid var(--cor5) ;
+    border-right:1px solid var(--cor5) ;
+}
+body{
+    background-color: var(--cor1);
+}
+li{
+    margin-left: 15px;
+}
+footer{
+    background-color: #0F0F14;
+    color: wheat;
+    text-align: center;
+    font-size: smaller;
+    
+}
+nav{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 7px;
+    font-size: 19px;
+}
+nav  a{
+font-family: amoera;
+color: white;
+}
+nav a:hover{
+    background-color: var(--cor2);
+    border-radius: 3px;
+    padding: 3px;
+    transition: 0.5s;
+    color: var(--cor3);
+ 
+}
+.suportes:hover{
+border-radius: 3px;
+padding: 3px;
+transition: 0.5s;
+color: greenyellow;
+
+}
+.tanks:hover{
+border-radius: 3px;
+padding: 3px;
+transition: 0.5s;
+color: aqua;
+
+}
+.dps:hover{
+border-radius: 3px;
+padding: 3px;
+transition: 0.5s;
+color: red;
+
+}
