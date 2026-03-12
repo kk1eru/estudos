@@ -1,0 +1,40 @@
+body, html{
+   
+    height: 97vh;
+    width: 97vw;
+}
+body{
+      background-image: url("../imgs/fundo.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+main{
+    position: relative;
+    height: 100vh;
+}
+section#celular{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(../imgs/celular.png) no-repeat;
+    width: 345px;
+    height: 720px;
+   
+}
+iframe{
+    position: relative;
+  top: 50%;
+  left: 48%;
+   transform: translate(-50%, -50%);
+    width: 330px;
+  height: 690px;
+  border-radius: 9px;
+  
+
+}
+button{
+    
+}
