@@ -1,0 +1,26 @@
+*{
+margin: 0;
+padding: 0;
+}
+main{
+    background-color: wheat;
+    width: 780px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+img{
+    width: 50px;
+ 
+}
+.roles{
+ box-shadow: 3px 5px 20px 0px black;
+
+}
+.roles:hover{
+transition: 0.7s;
+    transform: scale(1.2);
+     
+    
+}
